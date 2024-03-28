@@ -236,6 +236,16 @@ let myInternship=[
         "company":"https://bharatintern.live/",
         "active":false
     },
+    {
+        "company_name":"Bharat Intern",
+        "img":"https://media.licdn.com/dms/image/D4D0BAQFcPjC2TQlOmw/company-logo_100_100/0/1697543142221?e=1719446400&v=beta&t=rHE9yJNIhL4VzlyKsZ6pUt1I_GEEu5_q2oLzS5RlfKU",
+        "role":"Web Development Intern",
+        "date":"23/01/2024 - 20-02-2024",
+        "offer_letter":"https://drive.google.com/file/d/1KWOi4p1SjcBQaGoug_-Yhd4rviqv74_g/view?usp=drive_link",
+        "completion_letter":"https://drive.google.com/file/d/1L0hanlyadFfvyR704U9cn1aa7ndU0oWg/view?usp=drive_link",
+        "company":"https://www.linkedin.com/company/campus-coder/about/",
+        "active":false
+    },
    
 
 ]
