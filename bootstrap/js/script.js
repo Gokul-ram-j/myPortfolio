@@ -237,7 +237,7 @@ let myInternship=[
         "active":false
     },
     {
-        "company_name":"Bharat Intern",
+        "company_name":"Campus Coder",
         "img":"https://media.licdn.com/dms/image/D4D0BAQFcPjC2TQlOmw/company-logo_100_100/0/1697543142221?e=1719446400&v=beta&t=rHE9yJNIhL4VzlyKsZ6pUt1I_GEEu5_q2oLzS5RlfKU",
         "role":"Web Development Intern",
         "date":"23/01/2024 - 20-02-2024",
