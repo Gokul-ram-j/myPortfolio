@@ -246,6 +246,36 @@ let myInternship=[
         "company":"https://www.linkedin.com/company/campus-coder/about/",
         "active":false
     },
+    {
+        "company_name":"echnoHacks EduTech Official",
+        "img":"https://media.licdn.com/dms/image/C560BAQHbRc4KalclmA/company-logo_200_200/0/1676715857373?e=1719446400&v=beta&t=f1N7H0unxrJ3_cFpdLNgNDOxOLhgwuQmXB17tDP3T9E",
+        "role":"Web Development Intern",
+        "date":"23/01/2024 - 22-02-2024",
+        "offer_letter":"https://drive.google.com/file/d/1KzgqeuND670XB8GHwnYHWXsbzPSTxImU/view?usp=drive_link",
+        "completion_letter":"https://drive.google.com/file/d/1FfU695KPW7b9l6E1lHrytO1gCmNEQFot/view?usp=drive_link",
+        "company":"https://www.technohacks.co.in/",
+        "active":false
+    },
+    {
+        "company_name":"Slash Mark IT Startup",
+        "img":"https://media.licdn.com/dms/image/D560BAQGx3kX2Z4L-BQ/company-logo_200_200/0/1699711794222/slash_mark_logo?e=1719446400&v=beta&t=7Cukzdvox4aTor9dSU-1TCeYOFIsXxjZXLCT8yio4iY",
+        "role":"Web Development Intern",
+        "date":"25/02/2024 - 25-03-2024",
+        "offer_letter":"https://drive.google.com/file/d/13AvgLnW7xqhl9KzNIHFmkf5152F3TXC8/view?usp=drive_link",
+        "completion_letter":"https://drive.google.com/file/d/1w-CcQUaKk3t9kgJioM6Lg-DSJ5nczmLe/view?usp=drive_link",
+        "company":"https://slashmark.cloud/",
+        "active":false
+    },
+    {
+        "company_name":"TECH-A-INTERN",
+        "img":"https://media.licdn.com/dms/image/D4D0BAQEn7hYCKWsMrw/company-logo_200_200/0/1688907826942?e=1719446400&v=beta&t=yJgb1YRSwlYxAu0LQaXAOoqJDxkasE8amfinQtdIUgU",
+        "role":"Web Development Intern",
+        "date":"10/02/2024 - 10-03-2024",
+        "offer_letter":"https://drive.google.com/file/d/1u6TZ-wPsrp-H7-6FBaoG5yRYY5sqjsDw/view?usp=drive_link",
+        "completion_letter":"https://drive.google.com/file/d/1f-iqLwSg5o2a4ddtWh8ceEs1-PJeu28D/view?usp=drive_link",
+        "company":"https://slashmark.cloud/",
+        "active":false
+    },
    
 
 ]
@@ -301,6 +331,12 @@ let myProject=[
         "title":"expensetracker",
         "src":"https://github.com/Gokul-ram-j/learnsmasher/tree/main/expensetracker",
         "desc":"EXPENSE TRACKER",
+        "active":false
+    },
+    {
+        "title":"recipebook",
+        "src":"https://github.com/Gokul-ram-j/Tech-A-Intern/tree/main/recipe%20book",
+        "desc":"RECIPE BOOK",
         "active":true
     }
 ]
