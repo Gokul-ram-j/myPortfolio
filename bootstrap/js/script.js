@@ -98,15 +98,40 @@ mySkill={
         "scale":6,
         "certificate":""
     },
+    "blender":{
+        "scale":4,
+        "certificate":""
+    },
+    "c":{
+        "scale":7.5,
+        "certificate":""
+    },
+    "tableau":{
+        "scale":4.5,
+        "certificate":""
+    },
+    "figma":{
+        "scale":5.5,
+        "certificate":""
+    },
+    "java":{
+        "scale":7.5,
+        "certificate":"https://drive.google.com/file/d/1C-PiNn3M10C3rtccqfcqOqEdE4qhgBRU/view"
+    },
+    "firebase":{
+        "scale":5.5,
+        "certificate":""
+    },
 
    
 }
+
 
 for(skill_name in mySkill)
 {
     skill_container.innerHTML+=
     `
-    <div class=" col-sm-12 col-md-6 col-lg-4 p-1">
+    <div data-aos="zoom-in" class=" col-sm-12 col-md-6 col-lg-4 p-1">
         <div class="skill">
             <button onclick="show_details(this)" class="skill-show" style="color: white;"><i class="fa fa-eye" aria-hidden="true"></i></button>
             <img  src="./assert//${skill_name}.png" alt="html">
@@ -118,24 +143,25 @@ for(skill_name in mySkill)
     </div> 
     `
 }
-// {"title":"","src":""}
+
 //    -------------------------------- certificates --------------------------
-// my certificates
 let myCertificate={
     "FrontEnd Development":[
         {"title":"HTML, CSS, and Javascript for Web Developers","src":"https://coursera.org/share/5397be832a94b78aaccc3012799f59d7"},
         {"title":"Introduction to Front-End Development","src":"https://coursera.org/share/1f6ae9afdd8d0a5403688ffcb37ce32d"},
         {"title":"Succeeding in Web Development: Full Stack and Front End","src":""}
     ],
-    "Python":[
+    "Python Programming":[
         {"title":"Python(Basics)","src":"https://www.hackerrank.com/certificates/8f9aec679de6"},
-        {"title":"Intermediate Python for Non-Programmers","src":"https://www.linkedin.com/learning/certificates/352def1019050ed71b83b7c9cd04f8c1aa16a5f2446c02fc8d0b7f67bf022ab3"}
+        {"title":"Intermediate Python for Non-Programmers","src":"https://www.linkedin.com/learning/certificates/352def1019050ed71b83b7c9cd04f8c1aa16a5f2446c02fc8d0b7f67bf022ab3"},
+        {"title":"Programming ,Data structure And Algorithm in Python","src":"https://drive.google.com/file/d/1HHNvA9BItKo6nFTLuarRS6bdb4Il6EiV/view?usp=drive_link"}
     ],
     "Java programming":[
         {"title":"Java for beginners: Step-by-step hands-on guide to Java","src":"https://drive.google.com/file/d/1C-PiNn3M10C3rtccqfcqOqEdE4qhgBRU/view?usp=drivesdk"}
     ],
     "React":[
-        {"title":"React: Design Patterns","src":"https://www.linkedin.com/learning/certificates/837b889160f5552dd157cf5caa1fbbeb7d07f5d49c8bfe406416b133115944e6"}
+        {"title":"React: Design Patterns","src":"https://www.linkedin.com/learning/certificates/837b889160f5552dd157cf5caa1fbbeb7d07f5d49c8bfe406416b133115944e6"},
+        {"title":"React Basics","src":"https://coursera.org/share/e7d9c74616c9d6a2a8c4c17e2c72e9ff"}
     ],
     "BackEnd Development":[
         {"title":"Introduction to Back-End Development","src":"https://www.coursera.org/account/accomplishments/verify/4AF5EAVZTHPC?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"},
@@ -150,6 +176,8 @@ let certificate_container=document.querySelector(".certificates")
 for(cer in myCertificate){
 
     let cer_div=document.createElement("div")
+    cer_div.setAttribute("data-aos","fade-up")
+    cer_div.setAttribute("data-aos-anchor-placement","center-center")
     cer_div.setAttribute("class","certificate")
     cer_div.innerHTML+=
     `
@@ -224,7 +252,7 @@ let myInternship=[
         "offer_letter":"https://drive.google.com/file/d/1KwLkJ5pDwAjyVmrj9y60NuLKiPzXqK2p/view?usp=drive_link",
         "completion_letter":"https://drive.google.com/file/d/1u3V7JkUKFavxA1pqo8NwJqoh4uP3FLgw/view?usp=drive_link",
         "company":"http://oasisinfobyte.com/",
-        "active":true
+        "active":false
     },
     {
         "company_name":"Bharat Intern",
@@ -247,7 +275,7 @@ let myInternship=[
         "active":false
     },
     {
-        "company_name":"echnoHacks EduTech Official",
+        "company_name":"TechnoHacks EduTech Official",
         "img":"https://media.licdn.com/dms/image/C560BAQHbRc4KalclmA/company-logo_200_200/0/1676715857373?e=1719446400&v=beta&t=f1N7H0unxrJ3_cFpdLNgNDOxOLhgwuQmXB17tDP3T9E",
         "role":"Web Development Intern",
         "date":"23/01/2024 - 22-02-2024",
@@ -276,6 +304,26 @@ let myInternship=[
         "company":"https://slashmark.cloud/",
         "active":false
     },
+    {
+        "company_name":"Coders Cave",
+        "img":"https://media.licdn.com/dms/image/C560BAQG8mB16kIRhMQ/company-logo_200_200/0/1675512082141?e=1724284800&v=beta&t=e6DfCgQVw_jqfGtCUlXsHi1w7OkVBugm6TbPBLtm34s",
+        "role":"Web Development Intern",
+        "date":"02/04/2024 - 05-05-2024",
+        "offer_letter":"https://drive.google.com/file/d/1HKu7ZDR2HnyQnY3d7WS53Orjw4jEk2aw/view?usp=drive_link",
+        "completion_letter":"https://drive.google.com/file/d/1wBHmETjebX39ONeTPMYO0dnkBDI4vR_g/view?usp=drive_link",
+        "company":"https://www.coderscave.in/",
+        "active":true
+    },
+    {
+        "company_name":"GrowIntern",
+        "img":"https://media.licdn.com/dms/image/D560BAQHHF0AlGk_n3g/company-logo_200_200/0/1689862973092/growintern_logo?e=1724284800&v=beta&t=LPj_b-9JEyqsjVWKg-DRa6f_rP_DafKHuXrM8Bvz1BA",
+        "role":"Web Development Intern",
+        "date":"05/04/2024 - 05-05-2024",
+        "offer_letter":"https://drive.google.com/file/d/156mcrSGGBwiNccRQSuMj_y9UrdHr39Cf/view?usp=drive_link",
+        "completion_letter":"https://drive.google.com/file/d/1HO_RZtlfhzdiQcQ2RvVF_IbwIC7INO74/view?usp=drive_link",
+        "company":"https://growintern.com/",
+        "active":false
+    },
    
 
 ]
@@ -285,7 +333,7 @@ let myInternship=[
 for(intern of myInternship){
     let elem=
     `
-    <div class="carousel-item ${intern["active"]?"active":""}">
+    <div  class="carousel-item ${intern["active"]?"active":""}">
                 <div class="intern-details  d-block w-10">
                 <img src=${intern["img"]}  alt="">
                     <h1>${intern["company_name"]}</h1>
@@ -354,4 +402,7 @@ for(proj of myProject){
     `
     project_carousel.innerHTML+=elem
 }
+
+
+// ---------------------------------------------------------------
 
