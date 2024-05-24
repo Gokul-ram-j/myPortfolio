@@ -226,7 +226,7 @@ let internship_carousel=document.querySelector(".intership-carousel")
 let myInternship=[
     {
         "company_name":"Codsoft",
-        "img":"https://media.licdn.com/dms/image/D560BAQHDmIfYA5sY7w/company-logo_200_200/0/1685777115831?e=1716422400&v=beta&t=N4LGZYwUjI-gspZlRvtUcNax3t2vO5hasybgpJXHxNs",
+        "img":"https://media.licdn.com/dms/image/D560BAQHDmIfYA5sY7w/company-logo_200_200/0/1685777115831?e=1724889600&v=beta&t=47FVGfPVqeD2XCi8MXLct-L-tLpk5m_ZmgNykk_cR3U",
         "role":"Python Programming Intern",
         "date":"01/11/2023 - 30-01-2023",
         "offer_letter":"https://drive.google.com/file/d/1Kk-rHseYS6aFcWWeEE80BOz5O5msa6X5/view?usp=drive_link",
@@ -236,7 +236,7 @@ let myInternship=[
     },
     {
         "company_name":"LearnSmasher EduTech LLP",
-        "img":"https://media.licdn.com/dms/image/D560BAQF3i9iyPePkvQ/company-logo_200_200/0/1706279614099?e=1716422400&v=beta&t=6S34JJEK3Noq5ozUam_Xh5JwIlggKd1QMUj8V64kjCQ",
+        "img":"https://media.licdn.com/dms/image/D560BAQF3i9iyPePkvQ/company-logo_200_200/0/1706279614099?e=1724889600&v=beta&t=2ZLIesR7QAD2Vy9QDJxYAcH6P5aXHnUSBRdt0GQOc50",
         "role":"Web Development Intern",
         "date":"20/12/2023 - 20-01-2024",
         "offer_letter":"https://drive.google.com/file/d/1KqhKdNL1i69ED3ig57HE6DRi4DX001vi/view?usp=drive_link",
@@ -246,7 +246,7 @@ let myInternship=[
     },
     {
         "company_name":"OASIS InfoByte",
-        "img":"https://media.licdn.com/dms/image/C4E0BAQHfk_O8amPovQ/company-logo_200_200/0/1642532597684/oasis_infobyte_logo?e=1716422400&v=beta&t=T7-XRKrOCaGC4N2ysQTcAcYqP1nky6opEAC62k6yS4c",
+        "img":"https://media.licdn.com/dms/image/C4E0BAQHfk_O8amPovQ/company-logo_200_200/0/1642532597684/oasis_infobyte_logo?e=1724889600&v=beta&t=iD-AVoHTdngpv_yg8nTiBhfVVIR_Ij-BcasAbSV1mAQ",
         "role":"Web Development Intern",
         "date":"01/01/2024 - 05-02-2024",
         "offer_letter":"https://drive.google.com/file/d/1KwLkJ5pDwAjyVmrj9y60NuLKiPzXqK2p/view?usp=drive_link",
