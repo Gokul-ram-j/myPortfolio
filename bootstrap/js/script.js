@@ -256,7 +256,7 @@ let myInternship=[
     },
     {
         "company_name":"Bharat Intern",
-        "img":"https://media.licdn.com/dms/image/D560BAQFV0JYJ33yONg/company-logo_200_200/0/1691701552297/bharat_intern_logo?e=1717027200&v=beta&t=bC7W43ibYq8w1B97VWSFM5LGahDh8sqi822XEd8JM_I",
+        "img":"https://media.licdn.com/dms/image/D4D0BAQGk7LpwLG6nkQ/company-logo_200_200/0/1719257552819/bharat_intern_logo?e=1729728000&v=beta&t=DNwQ-2rQCSJP4b2yu6JxzWfB2Vbf_l6bPPLgkAYDpBs",
         "role":"Web Development Intern",
         "date":"10/01/2024 - 10-02-2024",
         "offer_letter":"https://drive.google.com/file/d/1KPcfmoSMUE-owxvwewJiJeAune67Pfu6/view?usp=drive_link",
@@ -266,7 +266,7 @@ let myInternship=[
     },
     {
         "company_name":"Campus Coder",
-        "img":"https://media.licdn.com/dms/image/D4D0BAQFcPjC2TQlOmw/company-logo_100_100/0/1697543142221?e=1719446400&v=beta&t=rHE9yJNIhL4VzlyKsZ6pUt1I_GEEu5_q2oLzS5RlfKU",
+        "img":"https://media.licdn.com/dms/image/D4D0BAQFcPjC2TQlOmw/company-logo_200_200/0/1697543142221?e=1729728000&v=beta&t=HqPjbdmsFMjF3oZst3l7plTtYOLu40wYxAE1UTPA6b8",
         "role":"Web Development Intern",
         "date":"23/01/2024 - 20-02-2024",
         "offer_letter":"https://drive.google.com/file/d/1KWOi4p1SjcBQaGoug_-Yhd4rviqv74_g/view?usp=drive_link",
@@ -276,7 +276,7 @@ let myInternship=[
     },
     {
         "company_name":"TechnoHacks EduTech Official",
-        "img":"https://media.licdn.com/dms/image/C560BAQHbRc4KalclmA/company-logo_200_200/0/1676715857373?e=1719446400&v=beta&t=f1N7H0unxrJ3_cFpdLNgNDOxOLhgwuQmXB17tDP3T9E",
+        "img":"https://media.licdn.com/dms/image/C560BAQHbRc4KalclmA/company-logo_200_200/0/1676715857373?e=1729728000&v=beta&t=WSg2OzU27Ca3R4WdjYoz54o5PhXX06OOpKlFxb2uOk4",
         "role":"Web Development Intern",
         "date":"23/01/2024 - 22-02-2024",
         "offer_letter":"https://drive.google.com/file/d/1KzgqeuND670XB8GHwnYHWXsbzPSTxImU/view?usp=drive_link",
@@ -286,7 +286,7 @@ let myInternship=[
     },
     {
         "company_name":"Slash Mark IT Startup",
-        "img":"https://media.licdn.com/dms/image/D560BAQGx3kX2Z4L-BQ/company-logo_200_200/0/1699711794222/slash_mark_logo?e=1719446400&v=beta&t=7Cukzdvox4aTor9dSU-1TCeYOFIsXxjZXLCT8yio4iY",
+        "img":"https://media.licdn.com/dms/image/D560BAQGx3kX2Z4L-BQ/company-logo_200_200/0/1699711794222/slash_mark_logo?e=1729728000&v=beta&t=3iF5UKSRCzhFicVYoZrl33mMWMYuswFg5_QL22QYa1s",
         "role":"Web Development Intern",
         "date":"25/02/2024 - 25-03-2024",
         "offer_letter":"https://drive.google.com/file/d/13AvgLnW7xqhl9KzNIHFmkf5152F3TXC8/view?usp=drive_link",
@@ -296,7 +296,7 @@ let myInternship=[
     },
     {
         "company_name":"TECH-A-INTERN",
-        "img":"https://media.licdn.com/dms/image/D4D0BAQEn7hYCKWsMrw/company-logo_200_200/0/1688907826942?e=1719446400&v=beta&t=yJgb1YRSwlYxAu0LQaXAOoqJDxkasE8amfinQtdIUgU",
+        "img":"https://media.licdn.com/dms/image/D560BAQEeMu8TyFZAJA/company-logo_200_200/0/1713907068127/tech_a_intern_logo?e=1729728000&v=beta&t=sFs1eOE-h3cMRi7vNcymGt03LhYe9eN-jj5Wfps9D74",
         "role":"Web Development Intern",
         "date":"10/02/2024 - 10-03-2024",
         "offer_letter":"https://drive.google.com/file/d/1u6TZ-wPsrp-H7-6FBaoG5yRYY5sqjsDw/view?usp=drive_link",
