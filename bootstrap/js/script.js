@@ -330,25 +330,25 @@ let myInternship=[
 
 
 
-for(intern of myInternship){
-    let elem=
-    `
-    <div  class="carousel-item ${intern["active"]?"active":""}">
-                <div class="intern-details  d-block w-10">
-                <img src=${intern["img"]}  alt="">
-                    <h1>${intern["company_name"]}</h1>
-                    <ul class="intern-info">
-                        <li><i class="fa fa-user-o" aria-hidden="true"></i> Role :${intern["role"]}</li>
-                        <li><i class="fa fa-calendar" aria-hidden="true"></i> ${intern["date"]}</li>
-                        <li><a href="${intern["offer_letter"]}"><i class="fa fa-file-text" aria-hidden="true"></i> View Offer Letter</a></li>
-                        <li><a href="${intern["completion_letter"]}"><i class="fa fa-check-circle-o" aria-hidden="true"></i> View Completion Letter</a></li>
-                        <li><a href="${intern["company"]}"><i class="fa fa-external-link" aria-hidden="true"></i> About Company </a></li>
-                    </ul>
-                </div>
-          </div>
-    `
-    internship_carousel.innerHTML+=elem
-}
+// for(intern of myInternship){
+//     let elem=
+//     `
+//     <div  class="carousel-item ${intern["active"]?"active":""}">
+//                 <div class="intern-details  d-block w-10">
+//                 <img src=${intern["img"]}  alt="">
+//                     <h1>${intern["company_name"]}</h1>
+//                     <ul class="intern-info">
+//                         <li><i class="fa fa-user-o" aria-hidden="true"></i> Role :${intern["role"]}</li>
+//                         <li><i class="fa fa-calendar" aria-hidden="true"></i> ${intern["date"]}</li>
+//                         <li><a href="${intern["offer_letter"]}"><i class="fa fa-file-text" aria-hidden="true"></i> View Offer Letter</a></li>
+//                         <li><a href="${intern["completion_letter"]}"><i class="fa fa-check-circle-o" aria-hidden="true"></i> View Completion Letter</a></li>
+//                         <li><a href="${intern["company"]}"><i class="fa fa-external-link" aria-hidden="true"></i> About Company </a></li>
+//                     </ul>
+//                 </div>
+//           </div>
+//     `
+//     internship_carousel.innerHTML+=elem
+// }
 
 
 // -----------------------------project section--------------------------------------
